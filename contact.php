@@ -697,9 +697,9 @@
 			if(isset($_POST["submit"]) && !empty("$_POST[name]") )
 			{	
 				$servername = "localhost";
-				$username = "Daniel Davidraj";
-				$password = "password";
-				$dbname = "daniel davidraj";
+				$username = "root";
+				$password = "";
+				$dbname = "sampledb";
 				// Create connection
 				$conn = mysqli_connect($servername,$username,$password,$dbname);
 				// Check connection
